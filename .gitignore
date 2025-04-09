@@ -1,0 +1,11 @@
+.idea/
+*.iml
+dist/
+node_modules/
+.vscode
+coverage
+.env
+.venv
+test-results/
+.DS_Store
+/test/private-api-usage/node-*.json

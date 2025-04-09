@@ -1,0 +1,35 @@
+{
+  "name": "@ably-labs/local-proxy",
+  "version": "0.0.6",
+  "description": "Unified Test Suite for Chat SDKs. An executable npm package designed to provide a consistent testing environment for different Ably Chat SDKs",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "vitest run"
+  },
+  "author": "Ably Ecosystems Team",
+  "license": "MIT",
+  "files": [
+    "dist/**",
+    "src/**",
+    "test/**",
+    "README.md",
+    "tsconfig.json",
+    "vitest.config.mts"
+  ],
+  "dependencies": {
+    "ably": "^2.3.1",
+    "http-proxy": "^1.18.1",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/http-proxy": "^1.17.16",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/ws": "^8.5.12",
+    "esbuild-runner": "^2.2.2",
+    "prettier": "^3.2.5",
+    "typescript": "^5.5.4",
+    "vitest": "^1.6.0"
+  }
+}
