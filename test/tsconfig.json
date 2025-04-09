@@ -13,6 +13,5 @@
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
-    "outDir": "dist"
   }
 }
