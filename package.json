@@ -1,7 +1,7 @@
 {
   "name": "@ably-labs/local-proxy",
-  "version": "0.0.6",
-  "description": "Unified Test Suite for Chat SDKs. An executable npm package designed to provide a consistent testing environment for different Ably Chat SDKs",
+  "version": "0.1.0",
+  "description": "Local proxy for SDK testing",
   "scripts": {
     "build": "tsc",
     "prepare": "npm run build",
